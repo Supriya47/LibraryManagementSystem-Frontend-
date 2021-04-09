@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="login.css">
+<meta charset="utf-8">
+<title>DashBoard</title>
+</head>
+
+<body>
+    <div class="head1" >
+        <img class="logooo" src="logo.jpg" >
+        <h2 class="heading" href="home.html" target="_self">Library Management System</a></h2>
+    <ul class="ul">
+        <a href="home.html" target="_blank"  > <li class="li">Home</li></a>
+		<a href="" target="_blank" > <li class="li">About</li></a>
+		<a href="" target="_blank" > <li class="li">login</li></a>
+		<a href="contactus.html" target="_blank" > <li class="li">Contact</li></a>
+    </ul>
+    <!-- <div class="">
+    <img class="admin" src="admin.jpg"><figcaption class="fig"></figcaption></div>  -->
+    <input  class="ip1" type="text" placeholder="Search...." name="Search">
+    <button class="bt" type="submit">Search</button>
+   </div>
+
+          <br><br><br> 
+	<div class="body">
+	<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form class="form" action="#">
+			<h1 class="h">Create Account</h1>
+			<input class="inp"  type="text" placeholder="First Name" />
+            <input class="inp"  type="text" placeholder="Last Name" />
+            <input class="inp"  type="text" placeholder="User Name" />
+            <input class="inp"  type="text" placeholder="Contact No." />
+			<input class="inp"  type="email" placeholder="Email" />
+			<input class="inp"  type="password" placeholder="Password" />
+			<button class="b1">Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form class="form" action="#">
+			<h1 class="h">Sign in</h1>
+			<br>
+            <form action="/action_page.php">
+                <label for="role">Choose a Role:</label>
+                <select name="roles" id="roles">
+                 <option value="choose">Choose...</option>
+                    <option value="Admin">Admin</option>                 
+                    <option value="User">User</option>
+               
+                   </select>
+			<input class="inp"  type="email" placeholder="Email" />
+			<input class="inp"  type="password" placeholder="Password" />
+			
+			<button class="b1">Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1 class="h">Welcome Back!</h1>
+				<p class="par" >To keep connected with us please login with your personal info</p>
+				<button class="b1" class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1 class="h">Hello, Friend!</h1>
+				<p class="par">Enter your personal details and start journey with us</p>
+				<button class="b1" class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script>
+   const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
+</script> 
+</body>
+</html>
