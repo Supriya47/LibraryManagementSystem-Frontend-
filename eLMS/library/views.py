@@ -79,61 +79,6 @@ def addbook_view(request):
     return render(request, 'library/addbook.html', {'form': form})
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
 def aboutus_view(request):
     return render(request, 'library/aboutus.html')
 
