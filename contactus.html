@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>contact us</title>
+ <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+ <link rel="stylesheet" href="contactcss.css" />
+<link href="https://fonts.googleapis.com/css?family=Baskervville|Merriweather&display=swap" rel="stylesheet">
+
+</head>
+
+  
+  <body>
+      <div class="head1" >
+          <img class="logooo" src="logo.jpg" >
+          <h2 class="heading" href="home.html" target="_self">Library Management System</a></h2>
+      <ul class="ul">
+          <a href="home.html" target="_blank"  > <li class="li">Home</li></a>
+      <a href="" target="_blank" > <li class="li">About</li></a>
+      <a href="login.html" target="_blank" > <li class="li">login</li></a>
+      <a href="contactus.html" target="_self" > <li class="li">Contact</li></a>
+      </ul>
+      <!-- <div class="">
+      <img class="admin" src="admin.jpg"><figcaption class="fig"></figcaption></div>  -->
+      <input  class="ip1" type="text" placeholder="Search...." name="Search">
+      <button class="bt" type="submit">Search</button>
+     </div>
+   
+ <div id="b1">
+ 
+<div class="clr"></div>
+   <div class="box">
+  <img src="logo.jpg" class="img1" />
+ 
+  <h1>"Library management System"</h1><br>
+ 
+  <h3>Project Manager - Supriya Prajapati<br>
+  Business Analist - Biraj Rayamaji<br>
+    Frontend Developer - Sumit Shrestha<br>
+    Backend Developer  - Janak Bhatta and Prasuna Pokherel<br>
+  </h3> <br>
+ 
+ <p>If you have problem with this website, notify the web developers directly by submission of the form.</p>
+
+<ul>
+  <li><a href="https://www.facebook.com/profile.php?id=100022352693294" class="a1"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.instagram.com/b_raz18/" class="a1"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+  <li><a href="#" class="a1"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+
+<div id="b2">
+<div class="contact-section">
+
+  <h1>Contact Us</h1>
+  <div class="border"></div>
+  <form class="form" action="index.html" method="post" id="form">
+    <input type="text" class="text" placeholder="Your name" id="name">
+    <input type="email" class="text" placeholder="Your email" id="email">
+    <input type="number" class="text" placeholder="Your phone number" id="phone">
+    <textarea class="text" placeholder="Your message" id="message"></textarea>
+    <input type="submit" class="btn" value="Send" id="submit">
+  </form>
+
+</body>
+ 
+</div>
+
+
+
+<script>
+let form= document.getElementById('form')
+form.addEventListener('submit', (e)=>{e.preventDefault()
+let name =
+document.getElementById('name')
+let email =
+document.getElementById('email')
+let phone =
+document.getElementById('phone')
+let message =
+document.getElementById('message')
+  
+  
+  let data = {
+	  'name':name.value,
+	  'email':email.value,
+	  'phone':phone.value,
+	  'message':message.value
+  }
+  let str=JSON.stringify(data)
+  localStorage.setItem(localStorage.length+1,str)
+  e.target.reset()
+});
+</script>
+ <script>
+	var menuBtn = document.getElementById('nav2');
+var menu = document.getElementById('nav1');
+menuBtn.addEventListener('click', function(e){
+	if (menu.style.display === "none") {
+		menu.style.display="block";
+	}else if(menu.style.display === "block"){
+		menu.style.display="none";
+	}else{
+		menu.style.display="block";
+	}
+});
+    </script>
+
+
+
+</body>
+</html>

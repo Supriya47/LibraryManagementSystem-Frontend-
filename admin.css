@@ -1,0 +1,129 @@
+body{
+	font-family: 'Lobster', cursive;
+	background-image:url(green.jpg);
+	margin:auto;
+	width:100%;
+}
+a{
+	text-decoration: none;
+}
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+    
+}
+
+/* The sidebar menu */
+.sidenav {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 160px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: #111; /* Black */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+	margin-left: 160px; /* Same as the width of the sidebar */
+	padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+.content{
+    margin: 50%;
+}
+
+
+.logooo{
+	border-radius: 50px;
+	height: 100%px;
+	padding: 5px;
+	width: 6.8%;
+    margin-top:-8.5px;
+}
+.head1{
+	width:100%;
+	
+	background-color:black;
+	height:13%;
+	position:fixed;
+	display:flex;
+}
+.head2{
+	
+	position:fixed;
+	margin-left: 56%;
+	margin-top: 1%;
+	padding:3px;
+	width:12%;
+	
+}
+.bt{
+    border-radius: 20px;
+	border: 1px solid rgb(76, 136, 60);
+	background-color: rgb(76, 136, 60);
+	color: #FFFFFF;
+	
+	
+	
+	
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    height: 22px;
+    margin-top: 34px;
+    width: 5%;
+    padding-bottom: 5px;
+    margin-right:5px;
+}
+.ip1{
+    margin-top: 34px;
+	width:12%;
+    height: 20px;
+	border-radius:15px;
+    margin-right:15px;
+
+}
+.heading{
+	 color:white;
+	 margin-top: 30px;
+     margin-left: 60px;
+    
+	text-decoration: none; 
+	 
+	 
+}
+
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #4CAF50, 0 0 40px #4CAF50, 0 0 50px #4CAF50, 0 0 60px #4CAF50, 0 0 70px #4CAF50, 0 0 80px #4CAF50;
+    }
+}  
+

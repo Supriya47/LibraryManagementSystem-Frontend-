@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="login.css">
+<meta charset="utf-8">
+<title>Admin</title>
+</head>
+
+<body>
+    <div class="head1" >
+        <img class="logooo" src="logo.jpg" >
+        <h2 class="heading" href="home.html" target="_self">Library Management System</a></h2>
+    <ul class="ul">
+        <a href="home.html" target="_blank"  > <li class="li">Home</li></a>
+		<a href="" target="_blank" > <li class="li">About</li></a>
+		<a href="login.html" target="_self" > <li class="li">login</li></a>
+		<a href="contact.html" target="_blank" > <li class="li">Contact</li></a>
+    </ul>
+    <!-- <div class="">
+    <img class="admin" src="admin.jpg"><figcaption class="fig"></figcaption></div>  -->
+    <input  class="ip1" type="text" placeholder="Search...." name="Search">
+    <button class="bt" type="submit">Search</button>
+   </div>
+  <br><br><br>
+
+
+
+  
+  <style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+    .f1{
+      margin-right: 125px;
+
+        color: white;
+    }
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: black;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    .sidenav,.content{
+    
+}
+figcaption{
+    text-align: center;
+    margin-bottom: 6px;
+    color: white;
+    
+}
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    .sp{
+        color:white;
+        margin-top: 35px;
+        
+        
+
+    }
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    .i1{
+        height: 200px;
+        border-radius: 35px;
+        padding: 12px;
+        margin: 20px;
+        
+        
+    }
+    .d1{
+        border:1.5px solid grey;
+        margin: 15px;
+        background-image:url(green.jpg);
+        border-radius: 32px;
+    }
+    .content{
+	 height: 100%;
+	 display:flex;
+     padding: 50px;
+     margin-left: 120px; 
+	 color: white;
+    }
+
+    .sbar{
+        padding: 20px;
+        margin-left: -25px;
+    }
+    .db{
+        color: white;
+        margin-top: -30px;
+        
+        text-align: center;
+    }
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .admin{
+        height: 50px;
+        border-radius: 24px;
+    }
+    .alogo{
+      margin-left: 125px;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="sp"> <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Admin DashBoard</span></div>
+        
+        
+    
+            <div class="content">
+                <div class="d1"> <a href="add.html" ><img class="i1" src="admin/add.jpg" ><figcaption>Add Books</figcaption>  </a></div>
+                <div class="d1"><a href="" ><img class="i1" src="admin/delete.png"><figcaption>Delete Books</figcaption>  </a></div>
+                <div class="d1"><a href="" ><img class="i1" src="admin/edit.jpg"><figcaption>Update Books</figcaption>  </a></div>
+                <div class="d1"><a href="home.html" ><img class="i1" src="admin/view.jpg"><figcaption>View All Books</figcaption>  </a></div>
+                
+               </div>
+        
+        <br><br>
+    <div id="mySidenav" class="sidenav">
+
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <h1 class="db">DashBoard</h1>
+      <div class="alogo">
+         <img class="admin" src="admin.jpg"><figcaption class="f1">Admin</figcaption> </div>
+ 
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <div class="sbar">
+            
+            <a href="contactadmin.html">Home</a>
+            <a href="">Members</a>
+            <a href="">Books</a>
+            <a href="">Assign Books</a>
+            <a href="login.html">Logout</a>
+          
+          
+          </div> 
+    </div>
+    
+    
+   
+    <br><br>
+    
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "300px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+</body>
+</html>
