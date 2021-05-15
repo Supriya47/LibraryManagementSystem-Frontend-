@@ -4,6 +4,13 @@ body{
 	margin:auto;
 	width:100%;
 }
+.loginadmin{
+	height: 65%;
+	width: 40%;
+}
+.cbox{
+	display: flex;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -116,8 +123,25 @@ body{
 span {
 	font-size: 12px;
 }
+.b2 {
+	border-radius: 10px;
+	border: 1px solid green;
+	
+	color: #0a0a0a;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 10px 15px;
+	margin: 5px;
+	text-transform: uppercase;
+	
+}
+#act{
+	background-color: blue;
 
-
+}
+a{
+	text-decoration: none;
+}
 .b1 {
 	border-radius: 20px;
 	border: 1px solid green;
@@ -300,30 +324,7 @@ input {
 	width: 40px;
 }
 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
 
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
-}
 
 .logooo{
 	border-radius: 50px;
@@ -383,14 +384,17 @@ footer a {
 	 
 	 
 }
+/* Footer */
 
 
-@-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green;
-    }
-    
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #4CAF50, 0 0 40px #4CAF50, 0 0 50px #4CAF50, 0 0 60px #4CAF50, 0 0 70px #4CAF50, 0 0 80px #4CAF50;
-    }
-}  
+#footer {
+    background: black;
+	width: 100%;
+	height: auto;
+	
+}
+.h6{
+	color: cornsilk;
+	text-align: center;
+	padding: 30px 0px;
+}
