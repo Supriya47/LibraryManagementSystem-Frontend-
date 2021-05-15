@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>contact us</title>
+<title>addbook</title>
  <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
  <link rel="stylesheet" href="add.css" />
 <link href="https://fonts.googleapis.com/css?family=Baskervville|Merriweather&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
           <h2 class="heading" href="home.html" target="_self">Library Management System</a></h2>
       <ul class="ul">
           <a href="home.html" target="_blank"  > <li class="li">Home</li></a>
-      <a href="" target="_blank" > <li class="li">About</li></a>
+      <a href="About.html" target="_blank" > <li class="li">About</li></a>
       <a href="login.html" target="_blank" > <li class="li">login</li></a>
       <a href="contactus.html" target="_self" > <li class="li">Contact</li></a>
       </ul>
@@ -31,20 +31,36 @@
   <h1>Add Books</h1>
   <div class="border"></div>
   <form class="form"  method="post" id="form">
+    
     <input type="text" class="text" placeholder="Book Name" id="name"> <input type="text" class="text" placeholder="Book Code" id="name">
     <input type="text" class="text" placeholder="Aurthor Name" id="Aname">
     <input type="text" class="text" placeholder="Book Category" >
     <textarea class="text" placeholder="Description" ></textarea>
-    <input type="submit" class="btn" value="Add Book" id="submit">
-  </form>
-
-</body>
- 
+        <div>
+    <div class="f"> <p class="h5"> Click on the "Choose File" button to upload an image:</p>
+    <form action="/action_page.php">
+    <input type="file" id="myFile" name="filename">
+    <input  type="submit">
+  </form></div>
+    <input type="submit" class="btn" value="Add Book" id="submit"> 
+  </form></div>
 </div>
 
+<br><br>
 
 
+<!-- Footer -->
+<section id="footer">
 
+  <div class="row">
+      
+          <p class="h6">Copyright © 2021 Library Management System  -  All Rights Reserved</p>
+    
+     
+  </div>	
+
+</section>
+<!-- ./Footer -->
 
 
 </body>

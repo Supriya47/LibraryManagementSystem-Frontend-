@@ -102,7 +102,7 @@ body{
 	transition: transform 80ms ease-in;
     height: 22px;
     margin-top: 34px;
-    width: 5%;
+    width: 5.3%;
     padding-bottom: 5px;
     margin-right:5px;
 }
@@ -282,15 +282,7 @@ textarea.text{
 .btn:hover{
   background: blue;
 }
-footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: black;
-   color: white;
-   text-align: center;
-}
+
 .clr{
 	float:none;
 }
@@ -327,6 +319,30 @@ footer {
 
 	
 }
+.f{
+  border: 2px solid gray;
+  width: 65%;
+  background-color: #111;
+}
+::placeholder{
+  color: antiquewhite;
+}
+#footer {
+  background: black;
+width: 100%;
+height: auto;
+
+}
+.h6{
+color: cornsilk;
+text-align: center;
+padding: 30px 0px;
+}
+.h5{
+  color: cornsilk;
+  font-size: 15px;
+}
+
 @media screen and (max-width: 500px){
 .box{
 		max-width:300px;

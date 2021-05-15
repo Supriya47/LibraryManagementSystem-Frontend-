@@ -3,7 +3,7 @@
 <head>
 <link rel="stylesheet" href="login.css">
 <meta charset="utf-8">
-<title>Logind</title>
+<title>Login</title>
 </head>
 
 <body>
@@ -12,7 +12,7 @@
         <h2 class="heading" href="home.html" target="_self">Library Management System</a></h2>
     <ul class="ul">
         <a href="home.html" target="_blank"  > <li class="li">Home</li></a>
-		<a href="" target="_blank" > <li class="li">About</li></a>
+		<a href="About.html" target="_blank" > <li class="li">About</li></a>
 		<a href="" target="_blank" > <li class="li">login</li></a>
 		<a href="contactus.html" target="_blank" > <li class="li">Contact</li></a>
     </ul>
@@ -22,35 +22,36 @@
     <button class="bt" type="submit">Search</button>
    </div>
 
-          <br><br><br> 
+          <br><br><br><br><br>
 	<div class="body">
 	<div class="container" id="container">
 	<div class="form-container sign-up-container">
 		<form class="form" action="#">
 			<h1 class="h">Create Account</h1>
-			<input class="inp"  type="text" placeholder="First Name" />
-            <input class="inp"  type="text" placeholder="Last Name" />
-            <input class="inp"  type="text" placeholder="User Name" />
-            <input class="inp"  type="text" placeholder="Contact No." />
-			<input class="inp"  type="email" placeholder="Email" />
-			<input class="inp"  type="password" placeholder="Password" />
+			<input class="inp"  type="text" placeholder="First Name" required />
+            <input class="inp"  type="text" placeholder="Last Name" required/>
+            <input class="inp"  type="text" placeholder="User Name" required/>
+            <input class="inp"  type="text" placeholder="Contact No." required/>
+			<input class="inp"  type="email" placeholder="Email" required/>
+			<input class="inp"  type="password" placeholder="Password" required/>
 			<button class="b1">Sign Up</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form class="form" action="#">
+		<form class="form" action="studentdashboard.html">
 			<h1 class="h">Sign in</h1>
 			<br>
-            <form action="/action_page.php">
+            <form>
                 <div class="cbox">
 					<a href="loginadmin.html" target="_self"><h4 class="b2" >Admin</h4></a>
 					<a ><h4 class="b2" id="act">Student</h4></a>
 				</div>
-			<input class="inp"  type="email" placeholder="Email" />
-			<input class="inp"  type="password" placeholder="Password" />
+			<input class="inp"  type="email" placeholder="Email" required />
+			<input class="inp"  type="password" placeholder="Password" required/>
+			<a href="studentdashboard.html"><button class="b1" type="submit">Sign In</button></a>
 			
-			<button class="b1">Sign In</button>
 		</form>
+		
 	</div>
 	<div class="overlay-container">
 		<div class="overlay">
@@ -70,34 +71,17 @@
 </div>
 <!-- Footer -->
 <section id="footer">
-    
-    <div class="row text-center text-xs-center text-sm-left text-md-left">
-        <div class="col-xs-12 col-sm-4 col-md-4">
 
-           
-        </div>
-    </div>
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-            <ul class="list-unstyled list-inline social text-center">
-                <li class="list-inline-item"><a ><i class="fa fa-facebook"></i></a></li>
-                <li class="list-inline-item"><a ><i class="fa fa-twitter"></i></a></li>
-                <li class="list-inline-item"><a ><i class="fa fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a ><i class="fa fa-google-plus"></i></a></li>
-                <li class="list-inline-item"><a  target="_blank"><i class="fa fa-envelope"></i></a></li>
-            </ul>
-        </div>
-        <hr>
-    </div>	
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-            <p class="h6">Copyright © 2020 Shop Nepal  -  All Rights Reserved</p>
-        </div>
-        <hr>
+        
+            <p class="h6">Copyright © 2021 Library Management System  -  All Rights Reserved</p>
+      
+       
     </div>	
 
 </section>
 <!-- ./Footer -->
+
 <script>
    const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');

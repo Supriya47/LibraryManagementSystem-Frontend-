@@ -14,6 +14,7 @@ a{
     
 }
 
+
 /* The sidebar menu */
 .sidenav {
 	height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -92,16 +93,16 @@ a{
 	
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
-    height: 22px;
+    height: 28px;
     margin-top: 34px;
-    width: 5%;
+    width: 5.4%;
     padding-bottom: 5px;
     margin-right:5px;
 }
 .ip1{
     margin-top: 34px;
 	width:12%;
-    height: 20px;
+    height: 25px;
 	border-radius:15px;
     margin-right:15px;
 
@@ -115,8 +116,293 @@ a{
 	 
 	 
 }
+#footer {
+	background: black;
+  width: 100%;
+  height: auto;
+  
+  }
+  .h6{
+  color: cornsilk;
+  text-align: center;
+  padding: 30px 0px;
+  }
+  
+  .head5{
+	 
+	 
+	display:flex;
+	margin-top: 0%;
+	flex-wrap: wrap;
+   
+}
+.fc{
+	width: 15%;
+	
+	display:inline-block;
+	margin:32px;
+	margin-left:5% ;
+	padding:16px;
+	color: white;
+	border: 1px solid white;
+	background-image:url(green.jpg);
+}
+.img{
+	height: 300px;
+	width: 100%;
+
+}
+
+figcaption{
+	font-size: 13.5px;
+}
+
+details > summary {
+   padding: 1px;
+   width: 50%;
+   
+   margin-top: 8px;
+   border: 1px solid white;
+   cursor: pointer;
+ }
+ 
+ details > p {
+   background-color: #eeeeee;
+   padding: 2px;
+   margin: 0;
+   font-size: 12px;
+   color: black;
+   box-shadow: 1px 1px 2px#bbbbbb;
+ }
+center{
+	width:100%;
+}
 
 
+
+
+.ul{
+    
+	display: flex;
+	width: 42%;
+	height: 70px;
+	margin-top: 25px;
+    margin-left: 30px;
+	text-align: center;
+	justify-content: space-between;
+}
+.li {
+    font-size: 70%;
+	padding: 1rem 2rem 1.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+	min-width: 20px;
+	margin: auto;
+	
+}
+
+.li:hover {
+  background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #ef816c;
+	font-weight: bold;
+}
+.li:active {
+  transform: translateY(4px);
+}
+
+.logooo{
+	border-radius: 50px;
+	height: 100%px;
+	padding: 5px;
+	width: 6%;
+    margin-top:-8.5px;
+}
+.head1{
+	width:100%;
+	
+	background-color:black;
+	height:13%;
+	position:fixed;
+	display:flex;
+}
+.head2{
+	
+	position:fixed;
+	margin-left: 56%;
+	margin-top: 1%;
+	padding:3px;
+	width:12%;
+	
+}
+.bt1{
+    border-radius: 20px;
+	border: 1px solid rgb(76, 136, 60);
+	background-color: rgb(76, 136, 60);
+	color: #FFFFFF;
+  font-size: 12px;
+  text-align: center;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    height: 25px;
+    margin-top: 36px;
+    width: 5%;
+    padding: 10px;
+    margin-right:5px;
+    
+}
+
+
+
+	.heading{
+		color:white;
+		margin-top: 30px;
+		margin-left: 50px;
+	   
+	   text-decoration: none; 
+	 
+	 
+}
+
+/* Set a style for all buttons */
+button {
+	border-radius: 15px;
+	background-color: #f44336;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 10px;
+	margin: 18px 5px;
+	border: none;
+	cursor: pointer;
+	width: 42%;
+	
+	
+  }
+  .button1{
+	background-color: #a5e960;
+  }
+  .button2 {
+	border-radius: 15px;
+	background-color: #f44336;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 10px;
+	margin: 18px 5px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	opacity:1;
+  }
+  
+  /* Float cancel and delete buttons and add an equal width */
+  .cancelbtn, .deletebtn {
+	
+	width: auto;
+	margin-right: 20%;
+  }
+  
+  /* Add a color to the cancel button */
+  .cancelbtn {
+	background-color: #ccc;
+	color: black;
+	width: 150px;
+  }
+  
+  /* Add a color to the delete button */
+  .deletebtn {
+	background-color: #f44336;
+	width: 150px;
+
+  }
+  
+  /* Add padding and center-align text to the container */
+  .container {
+	
+	text-align: center;
+	width: 50%;
+  }
+  .container p {
+	
+	color: white;
+	font-size: 25px;
+}
+  
+  
+  /* The Modal (background) */
+  .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	right: 280px;
+	top: 0;
+	width: 60%; /* Full width */
+	border: 2px solid green;
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(76, 75, 75, 0.632);
+	
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	
+	  height: 30%;
+	background-color: black;
+	margin:18px; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+  }
+   
+  /* The Modal Close Button (x) */
+  .close {
+	position: absolute;
+	right: 35px;
+	top: 15px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #f44336;
+	cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+	
+  }
+  .clearfix{
+	  display: flex;
+	  padding: 70px 0px;
+  }
+  
+  /* Change styles for cancel button and delete button on extra small screens */
+  @media screen and (max-width: 300px) {
+	.cancelbtn, .deletebtn {
+	   width: 100%;
+	}
+  }
+
+  .active{
+	  background-color: honeydew;
+  }
 @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green;

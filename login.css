@@ -102,7 +102,7 @@ body{
 	align-items: center;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
-	height: 90vh;
+	height: 70vh;
 	margin: -20px 0 50px;
 }
 
@@ -145,7 +145,7 @@ a{
 .b1 {
 	border-radius: 20px;
 	border: 1px solid green;
-	background-color: blue;
+	background-color: rgba(0, 0, 255, 0.755);
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -153,10 +153,14 @@ a{
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+	cursor: pointer;
 }
 
 .b1:active {
 	transform: scale(0.95);
+}
+.b1:hover{
+	background-color: rgba(0, 0, 255, 0.959);
 }
 
 .b1:focus {
@@ -325,7 +329,6 @@ input {
 }
 
 
-
 .logooo{
 	border-radius: 50px;
 	height: 100%px;
@@ -363,10 +366,12 @@ input {
 	transition: transform 80ms ease-in;
     height: 22px;
     margin-top: 34px;
-    width: 5%;
+    width: 5.3%;
     padding-bottom: 5px;
     margin-right:5px;
+	cursor: pointer;
 }
+
 .ip1{
     margin-top: 34px;
 	width:12%;
@@ -384,17 +389,25 @@ input {
 	 
 	 
 }
-/* Footer */
-
 
 #footer {
-    background: black;
-	width: 100%;
-	height: auto;
-	
-}
-.h6{
-	color: cornsilk;
-	text-align: center;
-	padding: 30px 0px;
-}
+	background: black;
+  width: 100%;
+  height: auto;
+  
+  }
+  .h6{
+  color: cornsilk;
+  text-align: center;
+  padding: 30px 0px;
+  }
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #4CAF50, 0 0 40px #4CAF50, 0 0 50px #4CAF50, 0 0 60px #4CAF50, 0 0 70px #4CAF50, 0 0 80px #4CAF50;
+    }
+}  
